@@ -57,6 +57,7 @@ def login_usuario():
 # Interface gráfica
 root = tk.Tk()
 root.title("Cadastro/Login de Usuário - PDV")
+root.geometry("1024x768")  # largura x altura da janela
 
 tk.Label(root, text="Nome:").grid(row=0, column=0)
 entry_nome = tk.Entry(root)
